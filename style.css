@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  /* Settings for table headings in table */
+  th {
+    font-family: JetBrains Mono Bold;
+    font-size: 20px;
+    color: #F8F6F2;
+    background-color: #C41E3D;
+  }
+
+  /* Table Border */
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  /* Response layout for images, will automatically resize based on page size */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Barlow Font (Regular) */
+  @font-face {
+    font-family: Barlow;
+    src: url(Barlow-Regular.ttf);
+  }
+
+  /* Barlow Font (Bold) */
+  @font-face {
+    font-family: Barlow Bold;
+    src: url(Barlow-Bold.ttf);
+  }
+
+  /* Barlow Font (Italic) */
+  @font-face {
+    font-family: Barlow Italic;
+    src: url(Barlow-Italic.ttf);
+  }
+  
+  /* JetBrains Mono Font (Regular) */
+  @font-face {
+    font-family: JetBrains Mono;
+    src: url(JetBrainsMono-Regular.ttf);
+  }
+
+  /* JetBrains Mono Font (Bold) */
+  @font-face {
+    font-family: JetBrains Mono Bold;
+    src: url(JetBrainsMono-Bold.ttf);
+  }
+
+  /* JetBrains Mono Font (Italic) */
+  @font-face {
+    font-family: JetBrains Mono Italic;
+    src: url(JetBrainsMono-Italic.ttf);
+  }
+
+  /* JetBrains Mono Font (BoldItalic) */
+  @font-face {
+    font-family: JetBrains Mono Bold Italic;
+    src: url(JetBrainsMono-BoldItalic.ttf);
+  }
+
+  /* JetBrains Mono Font (Regular) */
+  @font-face {
+    font-family: JetBrains Mono;
+    src: url(JetBrainsMono-Regular.ttf);
+  }
+
+
+  /* All body text */
+  body {
+    font-family: Barlow;
+    padding: 10px;
+    background: #F8F6F2;
+  }
+
+  /* Default font for bold text */
+  b {
+    font-family: Barlow Bold;
+  }
+
+  /* Default font for H2 headers */
+  h2 {
+    font-family: JetBrains Mono;
+    color: #C41E3D;
+  }
+
+  /* Default font for H3 headers */
+  h3 {
+    font-family: JetBrains Mono;
+    color: #C41E3D;
+  }
+  
+  /* Header box space for homepage */
+  .homepageheader {
+  background-image: url("HaloImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+  text-align: center;
+}
+  
+  /* Page title (Nornfang Studios) */
+  .homepageheader h1 {
+    font-size: 80px;
+    font-family: JetBrains Mono;
+    color: #F8F6F2BB;
+  }
+
+  /* Header box space for Merkava page */
+  .merkavahistorypageheader {
+    background-image: url("MerkavaMK1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* Header box space for military abbreviations page */
+  .militaryhistorypageheader {
+    background-image: url("TrophyAPSDimmed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* Page title (military abbreviations) */
+  .militaryhistorypageheader h1 {
+    font-size: 80px;
+    font-family: JetBrains Mono;
+    color: #F8F6F2BB;
+  }
+    
+  /* Page title (merkava history page) */
+  .merkavahistorypageheader h1 {
+    font-size: 80px;
+    font-family: JetBrains Mono;
+    color: #F8F6F2BB;
+  }
+
+  /* Text under the NornfangStudios title */
+  subtitle {
+    color: #F8F6F2;
+    font-weight: bold;
+  }
+  
+  /* Topnav bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #C41E3D;
+  }
+  
+  /* Topnav link style */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: JetBrains Mono;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #020300;
+    color: #C41E3D;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #F8F6F2;
+    padding-left: 20px;
+  }
+  
+  /* Singapore image on the front page */
+  .homepageimage1 {
+    background-image: url(SingaporeImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Fake image box placeholder*/
+  .fakeimg {
+    background-color:#767676;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Merkava image on the homepage */
+  .merkavahomepageimage {
+    background-image: url(MerkavaMK1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    font-family: JetBrains Mono
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
