@@ -25,49 +25,49 @@
   /* Barlow Font (Regular) */
   @font-face {
     font-family: Barlow;
-    src: url(Barlow-Regular.ttf);
+    src: url(/Fonts/Barlow/Barlow-Regular.ttf);
   }
 
   /* Barlow Font (Bold) */
   @font-face {
     font-family: Barlow Bold;
-    src: url(Barlow-Bold.ttf);
+    src: url(/Fonts/Barlow/Barlow-Bold.ttf);
   }
 
   /* Barlow Font (Italic) */
   @font-face {
     font-family: Barlow Italic;
-    src: url(Barlow-Italic.ttf);
+    src: url(/Fonts/Barlow/Barlow-Italic.ttf);
   }
   
   /* JetBrains Mono Font (Regular) */
   @font-face {
     font-family: JetBrains Mono;
-    src: url(JetBrainsMono-Regular.ttf);
+    src: url(/Fonts/JetBrainsMono/JetBrainsMono-Regular.ttf);
   }
 
   /* JetBrains Mono Font (Bold) */
   @font-face {
     font-family: JetBrains Mono Bold;
-    src: url(JetBrainsMono-Bold.ttf);
+    src: url(/Fonts/JetBrainsMono/JetBrainsMono-Bold.ttf);
   }
 
   /* JetBrains Mono Font (Italic) */
   @font-face {
     font-family: JetBrains Mono Italic;
-    src: url(JetBrainsMono-Italic.ttf);
+    src: url(/Fonts/JetBrainsMono/JetBrainsMono-Italic.ttf);
   }
 
   /* JetBrains Mono Font (BoldItalic) */
   @font-face {
     font-family: JetBrains Mono Bold Italic;
-    src: url(JetBrainsMono-BoldItalic.ttf);
+    src: url(/Fonts/JetBrainsMono/JetBrainsMono-BoldItalic.ttf);
   }
 
   /* JetBrains Mono Font (Regular) */
   @font-face {
     font-family: JetBrains Mono;
-    src: url(JetBrainsMono-Regular.ttf);
+    src: url(/Fonts/JetBrainsMono/JetBrainsMono-Regular.ttf);
   }
 
 
@@ -97,7 +97,7 @@
   
   /* Header box space for homepage */
   .homepageheader {
-  background-image: url("HaloImage.jpg");
+  background-image: url("/Pages/Home/Images/HaloImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -114,7 +114,7 @@
 
   /* Header box space for Merkava page */
   .merkavahistorypageheader {
-    background-image: url("MerkavaMK1.png");
+    background-image: url("/Pages/MerkavaHistory/Images/MerkavaMK1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,7 +124,7 @@
 
   /* Header box space for military abbreviations page */
   .militaryhistorypageheader {
-    background-image: url("TrophyAPSDimmed.jpeg");
+    background-image: url("/Pages/MilitaryTermsAndAbbreviations/Images/TrophyAPSDimmed.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -192,7 +192,7 @@
   
   /* Singapore image on the front page */
   .homepageimage1 {
-    background-image: url(SingaporeImage.jpg);
+    background-image: url(/Pages/Home/Images/SingaporeImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -209,7 +209,7 @@
 
   /* Merkava image on the homepage */
   .merkavahomepageimage {
-    background-image: url(MerkavaMK1.png);
+    background-image: url(/Pages/MerkavaHistory/Images/MerkavaMK1Bright.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
